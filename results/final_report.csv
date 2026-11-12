@@ -1,0 +1,10 @@
+model,size_bytes,fits_budget,val_error_pct,test_error_pct
+float32 (uncompressed),30040,False,5.111111111111111,5.833333333333335
+"uniform 8-bit, no pruning",7960,False,5.055555555555555,5.833333333333333
+"uniform 6-bit, no pruning",6120,False,5.055555555555555,5.833333333333333
+"uniform 5-bit, no pruning",5200,False,5.222222222222222,5.416666666666667
+"uniform 4-bit, no pruning",4280,False,4.777777777777778,6.166666666666667
+"uniform 3-bit, no pruning",3360,False,10.666666666666668,12.083333333333334
+"uniform 2-bit, no pruning",2440,True,42.05555555555556,42.75
+best same-everywhere (3-bit/60%),2625,True,8.0,8.25
+FlashFit recipe (GA),3052,True,6.166666666666667,7.000000000000001

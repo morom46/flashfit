@@ -1,0 +1,7 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+pygad==3.9.2
+pyswarms==1.3.0
+pytest

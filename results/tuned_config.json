@@ -1,0 +1,14 @@
+{
+  "ga": {
+    "pop": 100,
+    "mut_prob": 0.2,
+    "cx_prob": 0.9,
+    "elitism": 1
+  },
+  "pso": {
+    "w": 0.7
+  },
+  "sa": {
+    "initial_temp": 1000.0
+  }
+}
